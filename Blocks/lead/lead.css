@@ -1,0 +1,24 @@
+.lead {
+    margin: 56px 148px 92px 148px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter";
+}
+@media screen and (max-width: 1024px) {
+    .lead {
+        margin: 56px 48px 92px 48px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 88px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead {
+        margin-bottom: 64px;
+    }
+}
