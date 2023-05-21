@@ -1,11 +1,14 @@
 .header__lang-links {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    max-width: 77px;
+    width: 100%;
     justify-content: space-between;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 6px;
     list-style-type: none;
-    margin-bottom: 0;
-}
+  }
 @media screen and (max-width: 320px) {
     .header__lang-links {
         font-size: 18px;
