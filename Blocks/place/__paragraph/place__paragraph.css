@@ -2,7 +2,7 @@
     margin: 0;
     text-align: start;
     max-width: 484px;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -11,4 +11,14 @@
 }
 .place__paragraph:first-child {
     margin-top: 0;
+}
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
 }

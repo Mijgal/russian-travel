@@ -6,6 +6,5 @@
     letter-spacing: 0.5px;
 }
 .place__link:hover {
-    text-decoration: underline;
     opacity: 0.8;
   }
