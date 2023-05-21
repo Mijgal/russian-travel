@@ -3,6 +3,3 @@
     font-family: 'Inter', Arial, sans-serif;
     margin: 0 auto;
 }
-.body::-webkit-scrollbar {
-    width: 0;
-  }
