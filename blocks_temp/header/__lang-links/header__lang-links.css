@@ -1,18 +1,14 @@
 .header__lang-links {
     display: flex;
-    max-width: 77px;
     width: 100%;
-    justify-content: space-between;
     align-items: flex-end;
     margin: 0;
     padding: 0;
-    padding-bottom: 6px;
     list-style-type: none;
   }
 @media screen and (max-width: 320px) {
     .header__lang-links {
         font-size: 18px;
         line-height: 20px;
-        max-width: 62px;
     }
 }
